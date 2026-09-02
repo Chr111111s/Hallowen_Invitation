@@ -1,5 +1,6 @@
 import BackgroundAudio from '../components/BackgroundAudio.jsx'
 import Countdown from '../components/Countdown.jsx'
+import Credit from '../components/Credit.jsx'
 import DressCode from '../components/DressCode.jsx'
 import EventDetails from '../components/EventDetails.jsx'
 import GiftNote from '../components/GiftNote.jsx'
@@ -23,6 +24,7 @@ function Home() {
         <RsvpSection />
         <GiftNote />
         <InviteFooter />
+        <Credit />
       </div>
     </>
   )
