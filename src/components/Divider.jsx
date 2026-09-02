@@ -1,6 +1,6 @@
-function Divider() {
+function Divider({ className = '' }) {
   return (
-    <div className="divider" aria-hidden="true">
+    <div className={`divider ${className}`} aria-hidden="true">
       <span className="diamond" />
     </div>
   )
