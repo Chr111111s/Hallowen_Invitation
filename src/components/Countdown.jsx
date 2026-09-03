@@ -49,7 +49,7 @@ function Countdown() {
         )}
 
         <Divider className="mt-9" />
-        <p className="statement-note mt-4">3 de octubre &middot; 5:00 PM</p>
+        <p className="statement-note mt-4">26 de septiembre &middot; 6:30 PM</p>
       </div>
     </RevealSection>
   )

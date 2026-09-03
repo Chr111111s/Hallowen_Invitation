@@ -3,4 +3,4 @@
 export const RSVP_WHATSAPP_NUMBER = '7771065419'
 
 export const RSVP_MESSAGE =
-  '¡Hola! Confirmo mi asistencia a Mis 29 Años de Sheyla Denisse el 3 de octubre.'
+  '¡Hola! Confirmo mi asistencia a Mis 29 Años de Sheyla Denisse el 26 de septiembre.'

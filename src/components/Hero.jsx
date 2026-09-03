@@ -41,7 +41,7 @@ function Hero() {
         <h2 className="hero-name">Sheyla Denisse</h2>
         <h1 className="hero-title">¡Mis 29 Años!</h1>
         <Seal className="mb-6" />
-        <p className="hero-sub">Una velada embrujada bajo la luna de octubre</p>
+        <p className="hero-sub">Una velada embrujada bajo la luna de septiembre</p>
       </div>
 
       <div className="absolute bottom-7 left-1/2 z-10 flex -translate-x-1/2 flex-col items-center gap-2">

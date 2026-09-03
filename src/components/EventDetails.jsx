@@ -1,4 +1,4 @@
-import { Calendar, Clock, MapPin } from 'lucide-react'
+import { Calendar, Clock, MapPin, Navigation } from 'lucide-react'
 import pumpkinLantern from '../assets/pumpkin-lantern.jpg'
 import PhotoBackdrop from './PhotoBackdrop.jsx'
 import RevealSection from './RevealSection.jsx'
@@ -26,7 +26,7 @@ function EventDetails() {
             <Calendar className="h-4 w-4" />
             Fecha
           </p>
-          <p className="info-value">3 de octubre</p>
+          <p className="info-value">26 de septiembre</p>
         </div>
 
         <div className="info-row">
@@ -34,7 +34,7 @@ function EventDetails() {
             <Clock className="h-4 w-4" />
             Hora
           </p>
-          <p className="info-value">5:00 PM</p>
+          <p className="info-value">6:30 PM</p>
         </div>
 
         <div className="info-row">
@@ -42,8 +42,16 @@ function EventDetails() {
             <MapPin className="h-4 w-4" />
             Lugar
           </p>
-          <p className="info-value">Dirección pendiente por confirmar</p>
-          <p className="info-note">Se compartirá próximamente</p>
+          <p className="info-value">Casa Playa</p>
+          <a
+            href="https://maps.app.goo.gl/2imrhbiNE8ba9By47"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-3 inline-flex items-center gap-2 rounded-[3px] border border-white/15 bg-white/5 px-4 py-2 font-[var(--font-display)] text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-[var(--bone)] transition-colors hover:border-white/25 hover:bg-[var(--crimson)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[var(--crimson-bright)] focus-visible:outline-offset-2"
+          >
+            <Navigation className="h-3.5 w-3.5" />
+            Ver ubicación
+          </a>
         </div>
       </div>
     </RevealSection>
